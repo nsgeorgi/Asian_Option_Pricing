@@ -1,0 +1,28 @@
+﻿  main.cpp
+c:\users\user\documents\visual studio 2015\projects\asianoptionpricing\asianoptionpricing\path_generate.h(36): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\documents\visual studio 2015\projects\asianoptionpricing\asianoptionpricing\main.cpp(29): warning C4018: '<': signed/unsigned mismatch
+  asian.cpp
+c:\users\user\documents\visual studio 2015\projects\asianoptionpricing\asianoptionpricing\asian.cpp(39): warning C4018: '<': signed/unsigned mismatch
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\numeric(20): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\numeric(30): note: see reference to function template instantiation '_Ty std::_Accumulate<const double*,_Ty,_Fn2>(_InIt,_InIt,_Ty,_Fn2)' being compiled
+          with
+          [
+              _Ty=int,
+              _Fn2=std::plus<void>,
+              _InIt=const double *
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\numeric(38): note: see reference to function template instantiation '_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(_InIt,_InIt,_Ty,_Fn2)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _Fn2=std::plus<void>
+          ]
+  c:\users\user\documents\visual studio 2015\projects\asianoptionpricing\asianoptionpricing\asian.cpp(24): note: see reference to function template instantiation '_Ty std::accumulate<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>,int>(_InIt,_InIt,_Ty)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<double>>>
+          ]
+  Generating Code...
+  Asian_Option_Pricing.vcxproj -> c:\users\user\documents\visual studio 2015\Projects\Asian_Option_Pricing\Debug\Asian_Option_Pricing.exe
